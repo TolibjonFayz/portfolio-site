@@ -1,7 +1,7 @@
 <template>
   <div
     id="main"
-    class="px-[210px] pt-5 w-full h-[600px] flex flex-col bg-repeat-round bg-gradient-to-br from-[#343a40] to-[#262626]"
+    class="snap-start px-[210px] pt-5 w-full h-[600px] flex flex-col bg-repeat-round bg-gradient-to-br from-[#343a40] to-[#262626]"
   >
     <!-- Socials -->
     <div id="socials" class="main-socials flex flex-column gap-6">
@@ -33,7 +33,10 @@
         ></i>
       </a>
 
-      <a href="https://www.instagram.com/tolibjon_fayz/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/tolibjon-fayzullayev-98064523b/"
+        target="_blank"
+      >
         <i
           class="fa-brands fa-linkedin cursor-pointer"
           style="color: #ffffff; font-size: 20px"
@@ -102,6 +105,9 @@
   #main {
     padding: 50px;
     height: 500px;
+  }
+  #socials {
+    justify-content: center;
   }
   #hello {
     font-size: 18px;
