@@ -105,7 +105,7 @@
       gap: 10px;
       padding: 10px;
       li {
-        font-size: 12px;
+        font-size: 14px;
       }
     }
   }

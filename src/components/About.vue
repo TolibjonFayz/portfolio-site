@@ -90,7 +90,7 @@
     </div>
 
     <!-- Third -->
-    <div class="flex flex-col w-[30%] pl-10 gap-5">
+    <div id="third" class="flex flex-col w-[30%] pl-10 gap-5">
       <h1 class="text-[30px] mb-5">My Experience</h1>
 
       <!-- First -->
@@ -128,5 +128,37 @@
 }
 #second {
   border-right: 1px solid #e2e6e9;
+}
+
+@media screen and (max-width: 850px) {
+  #main {
+    flex-direction: column;
+    gap: 50px;
+  }
+  #first {
+    width: 100%;
+  }
+  #second {
+    width: 100%;
+    margin-left: 25px;
+  }
+  #third {
+    width: 100%;
+    margin-left: 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #first {
+    margin-left: -20px;
+  }
+  #second {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #third {
+    width: 100%;
+    margin-left: 0px;
+  }
 }
 </style>
