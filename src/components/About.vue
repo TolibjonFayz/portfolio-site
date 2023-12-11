@@ -1,5 +1,5 @@
 <template>
-  <div id="main" class="flex flex-row justify-between mt-10">
+  <div id="main" class="flex flex-row justify-between mt-10 pb-10">
     <!-- First -->
     <div id="first" class="flex flex-col w-[35%] pl-16 pr-10">
       <h1 class="text-[30px] mb-10">Who am I?</h1>

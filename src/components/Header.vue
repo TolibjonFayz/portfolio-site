@@ -1,7 +1,7 @@
 <template>
   <div
     id="main"
-    class="snap-start px-[210px] pt-5 w-full h-[600px] flex flex-col bg-repeat-round bg-gradient-to-br from-[#343a40] to-[#262626]"
+    class="px-[210px] pt-5 w-full h-[600px] flex flex-col bg-repeat-round bg-gradient-to-br from-[#343a40] to-[#262626]"
   >
     <!-- Socials -->
     <div id="socials" class="main-socials flex flex-column gap-6">
