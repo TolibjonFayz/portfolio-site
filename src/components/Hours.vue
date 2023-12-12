@@ -70,11 +70,11 @@
     align-items: center;
   }
   #second {
-    margin-right: 27px;
+    margin-right: 25px;
     margin-top: -4px;
   }
   #third {
-    margin-right: 28px;
+    margin-right: 26px;
     margin-top: -4px;
     margin-bottom: -4px;
   }
