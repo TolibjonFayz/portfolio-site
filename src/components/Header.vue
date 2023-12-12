@@ -46,7 +46,7 @@
     </div>
 
     <!-- Helo i am -->
-    <div class="mt-40 text-white flex flex-col">
+    <div class="mt-36 text-white flex flex-col">
       <h1 class="text-[40px]" id="hello">Hello, I am</h1>
       <h1 class="text-[80px]" id="name">Tolibjon Fayzullayev</h1>
       <h1 class="text-[20px]" id="kimman">
