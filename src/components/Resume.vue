@@ -1,5 +1,5 @@
 <template>
-  <div id="exe" class="px-[210px] mt-20 mb-2">
+  <div id="exe" class="px-[210px] mt-20 mb-24">
     <h1 class="text-[35px] mb-10">
       <b class="text-[#E7596A] font-normal mr-2">My</b>Resume
     </h1>
