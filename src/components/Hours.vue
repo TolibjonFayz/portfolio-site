@@ -74,7 +74,7 @@
     margin-top: -4px;
   }
   #third {
-    margin-right: 25px;
+    margin-right: 27px;
     margin-top: -4px;
     margin-bottom: -4px;
   }
