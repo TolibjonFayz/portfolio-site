@@ -3,9 +3,9 @@
     id="main"
     class="flex flex-col pt-16 pb-20 bg-[#343A40] text-white justify-center items-center text-center"
   >
-    <h1 class="text-[35px]">I Am Available For Working</h1>
+    <h1 class="text-[35px]">I Am Ready To Work</h1>
     <el-row class="mt-5">
-      <a href="https://t.me/tolibjon_portfolio/26" target="_blank">
+      <a href="https://t.me/tolibjon_portfolio/" target="_blank">
         <el-button
           id="resume"
           type="danger"
