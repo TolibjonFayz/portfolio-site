@@ -1,7 +1,7 @@
 <template>
   <div
     id="contact"
-    class="flex flex-row px-[210px] mt-5 pt-20 pb-10 gap-5 font-['Rethink_Sans']"
+    class="main flex flex-row px-[210px] mt-5 pt-20 pb-10 gap-5 font-['Rethink_Sans']"
   >
     <div id="sendmessage" class="w-[70%] p-5 flex flex-col items-center">
       <h1 class="text-[25px] mb-10">Send a message</h1>
@@ -24,7 +24,7 @@
     </div>
 
     <!-- Get in touch -->
-    <div id="contactt" class="w-[30%] bg-white p-5">
+    <div id="contac" class="w-[30%] bg-white p-5">
       <h1 class="text-[25px] mb-10">Get in touch</h1>
       <!-- Phone -->
       <div class="flex gap-5 pl-2">
@@ -104,25 +104,25 @@ const textarea = ref("");
   border: 1px solid #888;
 }
 
-#contactt {
+#contac {
   border: 1px solid #888;
 }
 
 @media screen and (max-width: 1250px) {
-  #main {
+  .main {
     padding-left: 50px;
     padding-right: 50px;
   }
 }
 
 @media screen and (max-width: 950px) {
-  #contact {
+  .main {
     flex-direction: column;
   }
   #sendmessage {
     width: 100%;
   }
-  #contactt {
+  #contac {
     width: 100%;
   }
 }
