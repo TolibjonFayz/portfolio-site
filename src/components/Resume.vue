@@ -1,5 +1,5 @@
 <template>
-  <div id="exe" class="px-[210px] mt-20 mb-24">
+  <div id="resume" class="px-[210px] mt-20 mb-24 font-['Rethink_Sans']">
     <h1 class="text-[35px] mb-10">
       <b class="text-[#E7596A] font-normal mr-2">My</b>Resume
     </h1>
@@ -43,6 +43,7 @@
           Full Stack programming internship -
           <a
             href="https://github.com/ImperiaDevelopers"
+            target="_blank"
             class="hover:text-[crimson] underline"
             >project code link</a
           >
@@ -88,7 +89,9 @@
           >
             Sep 2022 - Present
           </h2>
-          <p class="text-[#888]">Tashkent institute of Finance</p>
+          <p class="text-[#888]">
+            Tashkent institute of Finance <b>(Sirtqi)</b>
+          </p>
           <p class="text-[#888] mt-1">Finance and financial technologies</p>
         </h1>
       </div>
@@ -159,14 +162,14 @@
 }
 
 @media screen and (max-width: 800px) {
-  #exe {
+  #resume {
     padding-left: 100px;
     padding-right: 100px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  #exe {
+  #resume {
     padding-left: 50px;
     padding-right: 50px;
   }

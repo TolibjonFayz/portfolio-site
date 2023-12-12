@@ -1,5 +1,8 @@
 <template>
-  <div id="main" class="flex flex-row justify-between mt-10 pb-10">
+  <div
+    id="about"
+    class="flex flex-row justify-between mt-10 pb-10 font-['Rethink_Sans']"
+  >
     <!-- First -->
     <div id="first" class="flex flex-col w-[35%] pl-16 pr-10">
       <h1 class="text-[30px] mb-10">Who am I?</h1>
@@ -8,17 +11,18 @@
       </h2>
       <p class="text-[#888] mt-5">
         I am a fullstack developer with about three months of experience in
-        building websites. I like building apps that can help others. I maintain
-        an unwavering dedication to continuous self-improvement. I continually
-        expand my skill set by exploring diverse frameworks and programming
-        languages. My other hobbies include: reading book, gaming and ...!
+        building websites. I like building sites that can help others. I
+        maintain an unwavering dedication to continuous self-improvement. I
+        continually expand my skill set by exploring diverse frameworks and
+        programming languages. My other hobbies include: reading book, gaming
+        and ...!
       </p>
       <el-row class="mt-5">
         <a href="https://t.me/tolibjon_portfolio/26" target="_blank">
           <el-button
             id="resume"
             type="danger"
-            class="bg-[#E7596A] px-4 py-2 hover:bg-[#F63750] border-none"
+            class="bg-[#E7596A] px-4 py-2 hover:bg-[#F63750]"
             round
             ><i class="fa-regular fa-file mr-2"></i>Download My CV</el-button
           >
@@ -43,7 +47,7 @@
       </h5>
       <h5 class="flex gap-1">
         <b class="font-semibold">Address</b>:
-        <p class="text-[#888]">Toshkent shahar Chilonzor 16-daha</p>
+        <p class="text-[#888]">Uzbekistan, Tashkent, Chilanzar</p>
       </h5>
 
       <!-- Social -->
@@ -98,7 +102,9 @@
         <i class="fa-brands fa-vuejs mt-3 text-[#E7596A] text-[28px]" />
         <div>
           <h1 class="text-[20px] ml-3">Frontend Development</h1>
-          <p id="pi" class="text-[14px] ml-3">Lorem ipsum dolor sit amet.</p>
+          <p id="pi" class="text-[14px] ml-3">
+            I can make frontend part of site
+          </p>
         </div>
       </div>
 
@@ -107,7 +113,7 @@
         <i class="fa-brands fa-node mt-3 text-[#E7596A] text-[28px]" />
         <div>
           <h1 class="text-[20px]">Backend Development</h1>
-          <p id="pi" class="text-[14px]">Lorem ipsum dolor sit amet.</p>
+          <p id="pi" class="text-[14px]">I can make backend part of site</p>
         </div>
       </div>
     </div>
@@ -117,7 +123,7 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-#main {
+#about {
   border-bottom: 1px solid #e2e6e9;
 }
 #pi {
@@ -131,7 +137,7 @@
 }
 
 @media screen and (max-width: 850px) {
-  #main {
+  #about {
     flex-direction: column;
     gap: 50px;
   }

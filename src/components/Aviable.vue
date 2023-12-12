@@ -7,9 +7,9 @@
     <el-row class="mt-5">
       <a href="https://t.me/tolibjon_portfolio/" target="_blank">
         <el-button
-          id="resume"
+          id="resumea"
           type="danger"
-          class="bg-[#E7596A] px-12 py-5 hover:bg-[#F63750] border-none text-black"
+          class="bg-[#E7596A] px-12 py-5 hover:bg-[#F63750] text-black"
           >Hire me</el-button
         >
       </a>

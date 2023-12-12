@@ -1,7 +1,7 @@
 <template>
   <div
     id="main"
-    class="px-[210px] pt-5 w-full h-[600px] flex flex-col bg-repeat-round bg-gradient-to-br from-[#343a40] to-[#262626]"
+    class="px-[210px] pt-5 w-full h-[600px] flex flex-col bg-repeat-round bg-gradient-to-br from-[#343a40] to-[#262626] font-['Rethink_Sans']"
   >
     <!-- Socials -->
     <div id="socials" class="main-socials flex flex-column gap-6">
@@ -58,9 +58,9 @@
     <el-row class="mt-5">
       <a href="https://t.me/tolibjon_portfolio/26" target="_blank">
         <el-button
-          id="resume"
+          id="resumea"
           type="danger"
-          class="bg-[#E7596A] px-4 py-2 hover:bg-[#F63750] border-none"
+          class="bg-[#E7596A] px-4 py-2 hover:bg-[#F63750]"
           round
           ><i class="fa-regular fa-file mr-2"></i>Download Resume</el-button
         >

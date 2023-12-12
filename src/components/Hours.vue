@@ -1,7 +1,7 @@
 <template>
   <div
     id="main"
-    class="flex flex-row px-[210px] w-full pt-20 pb-20 bg-[#343A40] text-white"
+    class="flex flex-row px-[210px] w-full pt-20 pb-20 bg-[#343A40] text-white font-['Rethink_Sans']"
   >
     <!-- First -->
     <div id="first" class="flex w-[25%] justify-center items-center gap-5">

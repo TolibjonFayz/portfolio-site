@@ -1,5 +1,5 @@
 <template>
-  <div id="mmm" class="mt-20 px-[210px] mb-5">
+  <div id="portfolio" class="mt-20 px-[210px] mb-20 font-['Rethink_Sans']">
     <h1 class="text-[35px] mb-10">
       <b class="text-[#E7596A] font-normal mr-2">My</b>Portfolio
     </h1>
@@ -77,14 +77,14 @@
 }
 
 @media screen and (max-width: 1200px) {
-  #mmm {
+  #portfolio {
     padding-left: 100px;
     padding-right: 100px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  #mmm {
+  #portfolio {
     padding-left: 20px;
     padding-right: 20px;
   }

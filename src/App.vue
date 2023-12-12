@@ -6,6 +6,7 @@
   <Hours />
   <Portfolio />
   <Aviable />
+  <Footer />
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -20,6 +21,7 @@ import Resume from "./components/Resume.vue";
 import Hours from "./components/Hours.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Aviable from "./components/Aviable.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <style>

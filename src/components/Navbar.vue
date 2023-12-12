@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col mb-5">
+  <div class="flex flex-col mb-5 font-['Rethink_Sans']">
     <div class="navbar flex justify-center">
       <ul class="flex flex-row gap-10 text-center items-center">
         <li class="cursor-pointer text-[#E7596A] text-[18px]">
@@ -8,12 +8,12 @@
         <li
           class="cursor-pointer text-[18px] hover:text-[#505050] transition-all"
         >
-          About
+          <a href="#about">About</a>
         </li>
         <li
           class="cursor-pointer text-[18px] hover:text-[#505050] transition-all"
         >
-          Resume
+          <a href="#resume">Resume</a>
         </li>
         <div>
           <img
@@ -26,17 +26,12 @@
         <li
           class="cursor-pointer text-[18px] hover:text-[#505050] transition-all"
         >
-          Portfolio
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li
           class="cursor-pointer text-[18px] hover:text-[#505050] transition-all"
         >
-          Blog
-        </li>
-        <li
-          class="cursor-pointer text-[18px] hover:text-[#505050] transition-all"
-        >
-          Contact
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>
