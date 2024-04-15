@@ -5,6 +5,21 @@
     </h1>
     <div id="main" class="flex gap-5">
       <!-- First -->
+      <div class="aa w-[33%] transition-all">
+        <img src="../assets/furniro.png" alt="Furniro uz" />
+        <a
+          class="first-one transition-all cursor-pointer"
+          href="https://ashyo.netlify.app/"
+          target="_blank"
+        >
+          Furniro uz
+          <p style="font-size: 15px">
+            It's an online store selling various types of furniture.
+          </p>
+        </a>
+      </div>
+
+      <!-- Second -->
       <div class="aa flex w-[33%] transition-all">
         <img src="../assets/ikki.png" alt="Malumotlar.uz img" />
         <a
@@ -16,19 +31,6 @@
           <p style="font-size: 15px">
             A site with information from different categories
           </p>
-        </a>
-      </div>
-
-      <!-- Second -->
-      <div class="aa w-[33%] transition-all">
-        <img src="../assets/uch.png" alt="Ashyo uz" />
-        <a
-          class="first-one transition-all cursor-pointer"
-          href="https://ashyo.netlify.app/"
-          target="_blank"
-        >
-          Ashyo uz
-          <p style="font-size: 15px">A online store like Uzum Market</p>
         </a>
       </div>
 

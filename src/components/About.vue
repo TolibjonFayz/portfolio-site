@@ -24,7 +24,7 @@
             type="danger"
             class="bg-[#E7596A] px-4 py-2 hover:bg-[#F63750]"
             round
-            ><i class="fa-regular fa-file mr-2"></i>Download My CV</el-button
+            ><i class="fa-regular fa-file mr-2"></i>Download My Resume</el-button
           >
         </a>
       </el-row>
@@ -61,7 +61,7 @@
 
         <a href="https://twitter.com/tolibjonfayz" target="_blank">
           <i
-            class="fa-brands fa-twitter cursor-pointer"
+            class="fa-brands fa-x-twitter cursor-pointer"
             style="color: #e7596a; font-size: 20px"
           ></i>
         </a>

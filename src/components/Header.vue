@@ -14,7 +14,7 @@
 
       <a href="https://twitter.com/tolibjonfayz" target="_blank">
         <i
-          class="fa-brands fa-twitter cursor-pointer"
+          class="fa-brands fa-x-twitter cursor-pointer"
           style="color: #ffffff; font-size: 20px"
         ></i>
       </a>

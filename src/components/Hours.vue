@@ -7,7 +7,7 @@
     <div id="first" class="flex w-[25%] justify-center items-center gap-5">
       <i class="fa-solid fa-clock fa-4x p-5 mt-1"></i>
       <div class="flex flex-col">
-        <h1 class="text-[#E7596A] text-[40px] font-bold">150</h1>
+        <h1 class="text-[#E7596A] text-[40px] font-bold">300</h1>
         <h2 class="text-[12px] font-medium text-[#CACCCF]">Hours Worked</h2>
       </div>
     </div>

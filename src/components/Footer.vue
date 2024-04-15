@@ -16,6 +16,7 @@
         class="mb-5"
       />
       <el-button
+        @click="sendMessage()"
         id="resumea"
         type="danger"
         class="bg-[#E7596A] px-32 py-5 hover:bg-[#F63750]"
@@ -62,7 +63,7 @@
         </a>
 
         <a href="https://twitter.com/tolibjonfayz" target="_blank">
-          <i class="fa-brands fa-twitter cursor-pointer text-[20px]"></i>
+          <i class="fa-brands fa-x-twitter cursor-pointer text-[20px]"></i>
         </a>
 
         <a href="https://github.com/TolibjonFayz" target="_blank">
@@ -88,22 +89,40 @@
   <div
     class="bg-[#17263c] h-16 flex justify-center items-center text-center text-white font-['Rethink_Sans']"
   >
-    © Fayzullayev Tolibjon, 2023 - Barcha huquqlar himoyalangan.
+    © Fayzullayev Tolibjon, 2024 - Barcha huquqlar himoyalangan.
   </div>
 </template>
 
 <script setup>
 import { ref } from "vue";
+import { useUserStore } from "../stores/user";
+import { ElNotification } from "element-plus";
+
+const userStore = useUserStore();
 const name = ref("");
 const email = ref("");
 const textarea = ref("");
+
+const payload = {
+  userinfo: email,
+  products: textarea,
+};
+
+const sendMessage = async () => {
+  await userStore.sendMessageToUser(payload);
+  await ElNotification({
+    title: "Muvaffaqiyatli yuborildi",
+    message:
+      "Xabaringiz adminga muvaffaqiyatli yuborildi. Tez orada javob yozamiz!",
+    type: "success",
+  });
+};
 </script>
 
 <style lang="scss" scoped>
 #sendmessage {
   border: 1px solid #888;
 }
-
 #contac {
   border: 1px solid #888;
 }
